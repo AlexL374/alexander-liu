@@ -1,10 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-import Experiences from './pages/Experiences.js';
+import Contacts from './components/Contacts.js';
+import Intro from './components/Intro';
+import School from './components/School.js';
+import Experiences from './components/Experiences.js';
+import Leadership from './components/Leadership.js';
+import Skills from './components/Skills.js';
+import Accolades from './components/Accolades.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <Experiences />
+    <div>
+      <div class='top'>
+      <Contacts />
+      <Intro />
+      </div>
+      <School />
+      <Experiences />
+      <Skills />
+      <Accolades />
+      <Footer />
+    </div>
   );
 }
 

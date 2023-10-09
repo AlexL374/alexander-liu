@@ -1,0 +1,79 @@
+.parallax {
+    margin-top: -15%;
+    text-align: center;
+    scroll-margin-top: 12vh;
+}
+
+.rpi {
+    margin-top: -28%;
+    color: #f7453b;
+    /*font-size: 100px;*/
+    font-size: 7vw;
+    font-family: "asdf";
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.rpi:hover {
+    cursor: pointer;
+}
+
+.rpi:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    /*height: 4px;*/
+    height: 0.5vh;
+    bottom: 0;
+    left: 0;
+    background-color: #f7453b;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.rpi:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.school-card {
+    border: black 3px solid;
+    background-color: white;
+    /*height: 400px;*/
+    height: 50vh;
+    width: 40%;
+    margin-top: -24%;
+    margin-left: 30%;
+    transition: width 0.25s linear;
+}
+
+.school-card:hover {
+    cursor: pointer;
+}
+
+.none {
+    z-index: -10;
+    position: relative;
+}
+
+.show {
+    z-index: 10;
+    position: relative;
+}
+
+.middle {
+    z-index: 0;
+    position: relative;
+}
+
+p {
+    font-family: "asdf";
+}
+
+.school-title {
+    font-size: 25px;
+    font-weight: bold;
+}

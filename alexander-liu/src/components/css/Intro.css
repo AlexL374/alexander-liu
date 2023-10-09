@@ -1,0 +1,11 @@
+.intro-outer {
+    height: 200px;
+    margin: 15% 0px 100px 8%;
+    display: flex;
+}
+
+.intro-text {
+    font-family: "asdf";
+    font-size: 1.7vw;
+    margin-left: 0px;
+}

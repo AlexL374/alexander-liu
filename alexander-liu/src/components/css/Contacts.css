@@ -1,0 +1,81 @@
+@font-face{
+    font-family: asdf;
+    src: url(JosefinSans-Regular.ttf);
+}
+
+.outer {
+    width: 100vw;
+    /*background-color: #e3e1e1;*/
+    background-color: white;
+    /*text-align: center;*/
+    /*display: flex;
+    justify-content: space-evenly;*/
+    /*column-count: 3;*/
+    /*display: table;*/
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column {
+    float: left;
+    width: 33.33vw;
+}
+
+.row {
+    display: table;
+}
+
+.name {
+    font-size: 40px;
+    margin: 20px 0px 0px 8%;
+    font-family: "Lucida Handwriting", cursive;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 15px;
+    margin: 30px 0px 7px 20px;
+    font-family: "asdf";
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.right {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60%;
+}
+
+.link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    /*height: 4px;*/
+    height: 0.1vh;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

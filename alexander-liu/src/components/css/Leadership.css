@@ -1,0 +1,40 @@
+#leadership {
+    scroll-margin-top: 11vh;
+}
+
+.leadership-title {
+    font-family: "asdf";
+    font-size: 6vw;
+    color: #ff964f;
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leadership-title:hover {
+    cursor: pointer;
+}
+
+.leadership-title:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    /*height: 4px;*/
+    height: 0.5vh;
+    bottom: 0;
+    left: 0;
+    background-color: #ff964f;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.leadership-title:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.leadership-none {
+    display: none;
+}

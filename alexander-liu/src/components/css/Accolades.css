@@ -1,0 +1,40 @@
+#accolades {
+    scroll-margin-top: 11vh;
+}
+
+.accolades-title {
+    font-family: "asdf";
+    font-size: 6vw;
+    color: #C3B1E1;
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accolades-title:hover {
+    cursor: pointer;
+}
+
+.accolades-title:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    /*height: 4px;*/
+    height: 0.5vh;
+    bottom: 0;
+    left: 0;
+    background-color: #C3B1E1;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.accolades-title:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.accolades-none {
+    display: none;
+}
