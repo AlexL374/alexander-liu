@@ -84,3 +84,31 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+@media screen and (max-width: 1190px) {
+    .right {
+        margin-left: 55%;
+    }
+  }
+
+  @media screen and (max-width: 1060px) {
+    .right {
+        margin-left: 50%;
+    }
+  }
+
+  @media screen and (max-width: 940px) {
+    .right {
+        margin-left: 45%;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+  }
+
+  @media screen and (max-width: 845px) {
+    .right {
+        display: none;
+    }
+  }
