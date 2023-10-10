@@ -3,7 +3,7 @@ import './css/Intro.css';
 function Intro() {
     return (
         <div>
-            <div class='intro-outer'>
+            <div class='intro-outer' id="intro">
             <div class='intro-left'>
             <p class='intro-text'>
                 Hi! I'm Alexander Liu.

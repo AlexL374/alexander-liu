@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 function Accolades() {
 
     const [showAccolades, setShowAccolades] = useState(false);
+    const accolades = ['RPI\'s Founder Award of Excellence Recipient', 'Chi Phi Educational Trust Scholarhip Recipient', 'Upsilon Pi Epsilon (Computer Science Honor Society) at RPI', 'Pi Mu Epsilon (Math Honor Society) at RPI'];
 
     function updateShowAccolades() {
         if (showAccolades) {
@@ -20,14 +21,19 @@ function Accolades() {
     return (
         <div id='accolades'>
             <p class='accolades-title' onClick={updateShowAccolades}>Accolades</p>
-            <div class={showAccolades ? `` : ``}>
-            <Card sx={{ minWidth: 275, maxWidth: '15vw', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center', marginBottom: '10px' }}>
+            <div class={showAccolades ? `accolades-outer` : `accolades-outer`}>
+                {accolades.map((accolade) => {
+                    return (
+                        <Card sx={{ minWidth: 10, maxWidth: 200, marginLeft: 'auto', marginRight: 'auto', textAlign: 'center', marginBottom: '10px' }}>
                         <CardContent>
                             <Typography sx={{ fontSize: 20, fontFamily: 'asdf' }} color="text.primary" gutterBottom>
-                                hi
+                                {accolade}
                             </Typography>
                         </CardContent>
                     </Card>
+                    )
+                })}
+            
             </div>
             
         </div>

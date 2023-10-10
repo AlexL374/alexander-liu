@@ -9,8 +9,8 @@ function Footer() {
         </div>
     );*/
     return (
-        <div>
-            <div class='footer-outer'>
+        <div id="footer">
+            <div class='footer-outer' id="footer">
                     <div class='footer-contact'>
                         <a class='footer-contact-text'>
                             (631)-353-8891
@@ -18,8 +18,8 @@ function Footer() {
                         <a class='footer-contact-text'>
                             alexandernumber2@gmail.com  
                         </a>
-                        <a class='footer-contact-text'>
-                            https://www.linkedin.com/in/alexander-liu-al/
+                        <a class='footer-contact-text linked-in' href="https://www.linkedin.com/in/alexander-liu-al/" target='_blank'>
+                            www.linkedin.com/in/alexander-liu-al/
                         </a>
                     </div>
             </div>

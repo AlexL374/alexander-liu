@@ -27,9 +27,9 @@ function Experiences() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Up To Date"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', border: '3px black solid', boxShadow: 'none' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', /*border: '3px black solid',*/ boxShadow: 'none' }}
             contentArrowStyle={{ display: 'none'}}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             /*icon={<WorkIcon />}*/
             dateClassName='date'
             position='right'
@@ -43,9 +43,9 @@ function Experiences() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Sep, 2023 - Current"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', border: '3px black solid', boxShadow: 'none' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', /*border: '3px black solid',*/ boxShadow: 'none' }}
             contentArrowStyle={{ display: 'none'}}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             /*icon={<WorkIcon />}*/
             dateClassName='date'
             position='right'
@@ -59,9 +59,9 @@ function Experiences() {
           <VerticalTimelineElement
             className={`vertical-timeline-element--education ` + (hideTimeline ? `experiences-none` : ``)}
             date="Jan, 2023 - Current"
-            iconStyle={{ background: '#ff964f', color: '#fff', boxShadow: 'none', border: '3px black solid' }}
+            iconStyle={{ background: '#ff964f', color: '#fff', boxShadow: 'none', /*border: '3px black solid'*/ }}
             contentArrowStyle={{ display: 'none'}}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             /*icon={<SchoolIcon />}*/
             dateClassName='date'
             position='right'
@@ -80,10 +80,10 @@ function Experiences() {
             /*contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}*/
             date="May, 2023 - Aug, 2023"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', border: '3px black solid', boxShadow: 'none' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', /*border: '3px black solid',*/ boxShadow: 'none' }}
             /*icon={<WorkIcon />}*/
             contentArrowStyle={{ display: 'none' }}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             dateClassName='date'
             position='right'
           >
@@ -101,10 +101,10 @@ audit logging to clean up the developer workflow</li>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Sep, 2022 - Dec, 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', border: '3px black solid', boxShadow: 'none' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', /*border: '3px black solid',*/ boxShadow: 'none' }}
             /*icon={<WorkIcon />}*/
             contentArrowStyle={{ display: 'none' }}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             dateClassName='date'
             position='right'
           >
@@ -117,10 +117,10 @@ audit logging to clean up the developer workflow</li>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May, 2022 - Aug, 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', border: '3px black solid', boxShadow: 'none' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', /*border: '3px black solid',*/ boxShadow: 'none' }}
             /*icon={<WorkIcon />}*/
             contentArrowStyle={{ display: 'none' }}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             dateClassName='date'
             position='right'
           >
@@ -139,10 +139,10 @@ audit logging to clean up the developer workflow</li>
           <VerticalTimelineElement
             className={`vertical-timeline-element--education ` + (hideTimeline ? `experiences-none` : ``)}
             date="2022"
-            iconStyle={{ background: '#ff964f', color: '#fff', boxShadow: 'none', border: '3px black solid' }}
+            iconStyle={{ background: '#ff964f', color: '#fff', boxShadow: 'none', /*border: '3px black solid'*/ }}
             /*icon={<SchoolIcon />}*/
             contentArrowStyle={{ display: 'none' }}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             dateClassName='date'
             position='right'
           >
@@ -156,10 +156,10 @@ audit logging to clean up the developer workflow</li>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Oct, 2021 - May 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', boxShadow: 'none', border: '3px black solid' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', boxShadow: 'none', /*border: '3px black solid'*/ }}
             /*icon={<WorkIcon />}*/
             contentArrowStyle={{ display: 'none' }}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             dateClassName='date'
             position='right'
           >
@@ -175,10 +175,10 @@ audit logging to clean up the developer workflow</li>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May, 2021 - Aug, 2021"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', boxShadow: 'none', border: '3px black solid' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', boxShadow: 'none', /*border: '3px black solid'*/ }}
             /*icon={<WorkIcon />}*/
             contentArrowStyle={{ display: 'none' }}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             dateClassName='date'
             position='right'
           >
@@ -193,10 +193,10 @@ audit logging to clean up the developer workflow</li>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date="May, 2021 - Aug, 2021"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', boxShadow: 'none', border: '3px black solid' }}
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', boxShadow: 'none', /*border: '3px black solid'*/ }}
             /*icon={<SchoolIcon />}*/
             contentArrowStyle={{ display: 'none' }}
-            contentStyle={{ border: 'black 3px solid'}}
+            /*contentStyle={{ border: 'black 3px solid'}}*/
             dateClassName='date'
             position='right'
           >
