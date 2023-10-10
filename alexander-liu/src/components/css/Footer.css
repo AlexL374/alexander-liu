@@ -1,0 +1,24 @@
+.footer-outer {
+    height: fit-content;
+    margin: 15% 0px 20px 8%;
+    display: flex;
+    width: 85vw;
+}
+
+.footer-text {
+    font-family: "asdf";
+    font-size: 1.7vw;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-contact-text {
+    font-size: 14px;
+    font-family: "asdf";
+}

@@ -3,6 +3,9 @@
     margin-top: 15%;
     text-align: center;
     scroll-margin-top: 11vh;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .experiences-title {

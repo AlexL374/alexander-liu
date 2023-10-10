@@ -32,6 +32,7 @@ function Experiences() {
             contentStyle={{ border: 'black 3px solid'}}
             /*icon={<WorkIcon />}*/
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">Portfolio Website</h2>
             <h4 className="vertical-timeline-element-subtitle">Front-End Developer</h4>
@@ -47,6 +48,7 @@ function Experiences() {
             contentStyle={{ border: 'black 3px solid'}}
             /*icon={<WorkIcon />}*/
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">RCOS At RPI</h2>
             <h4 className="vertical-timeline-element-subtitle">Full Stack Developer</h4>
@@ -62,6 +64,7 @@ function Experiences() {
             contentStyle={{ border: 'black 3px solid'}}
             /*icon={<SchoolIcon />}*/
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">Chi Phi</h2>
             <h4 className="vertical-timeline-element-subtitle">President</h4>
@@ -82,6 +85,7 @@ function Experiences() {
             contentArrowStyle={{ display: 'none' }}
             contentStyle={{ border: 'black 3px solid'}}
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">Google</h2>
             <h4 className="vertical-timeline-element-subtitle">Software Engineering Intern</h4>
@@ -102,6 +106,7 @@ audit logging to clean up the developer workflow</li>
             contentArrowStyle={{ display: 'none' }}
             contentStyle={{ border: 'black 3px solid'}}
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">Data Structures Mentor At RPI</h2>
             <h4 className="vertical-timeline-element-subtitle">Mentor</h4>
@@ -117,6 +122,7 @@ audit logging to clean up the developer workflow</li>
             contentArrowStyle={{ display: 'none' }}
             contentStyle={{ border: 'black 3px solid'}}
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">Google</h2>
             <h4 className="vertical-timeline-element-subtitle">Software Engineering Intern</h4>
@@ -138,6 +144,7 @@ audit logging to clean up the developer workflow</li>
             contentArrowStyle={{ display: 'none' }}
             contentStyle={{ border: 'black 3px solid'}}
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">Chi Phi</h2>
             <h4 className="vertical-timeline-element-subtitle">House Manager</h4>
@@ -154,6 +161,7 @@ audit logging to clean up the developer workflow</li>
             contentArrowStyle={{ display: 'none' }}
             contentStyle={{ border: 'black 3px solid'}}
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">Mission: Mentor (Acq.)</h2>
             <h4 className="vertical-timeline-element-subtitle">Full Stack Developer Team Lead</h4>
@@ -172,6 +180,7 @@ audit logging to clean up the developer workflow</li>
             contentArrowStyle={{ display: 'none' }}
             contentStyle={{ border: 'black 3px solid'}}
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">Research At RPI</h2>
             <h4 className="vertical-timeline-element-subtitle">Front-End Developer</h4>
@@ -189,6 +198,7 @@ audit logging to clean up the developer workflow</li>
             contentArrowStyle={{ display: 'none' }}
             contentStyle={{ border: 'black 3px solid'}}
             dateClassName='date'
+            position='right'
           >
             <h2 className="vertical-timeline-element-title">theCoderSchool</h2>
             <h4 className="vertical-timeline-element-subtitle">Code Coach</h4>
