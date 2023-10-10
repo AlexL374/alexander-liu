@@ -1,8 +1,8 @@
 .footer-outer {
     height: fit-content;
-    margin: 15% 0px 20px 8%;
+    margin: 15% 0px 20px 0px;
     display: flex;
-    width: 85vw;
+    width: 100vw;
 }
 
 .footer-text {

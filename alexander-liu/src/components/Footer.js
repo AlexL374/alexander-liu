@@ -16,7 +16,7 @@ function Footer() {
                             (631)-353-8891
                         </a>
                         <a class='footer-contact-text'>
-                            alexandernumber2@gmail.com  
+                            alexandernumber2@gmail.com
                         </a>
                         <a class='footer-contact-text linked-in' href="https://www.linkedin.com/in/alexander-liu-al/" target='_blank'>
                             www.linkedin.com/in/alexander-liu-al/

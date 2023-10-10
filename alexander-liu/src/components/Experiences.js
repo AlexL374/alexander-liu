@@ -7,6 +7,16 @@ import './css/Experiences.css';
 function Experiences() {
 
   const [hideTimeline, setHideTimeline] = useState(false);
+  const dates = ['Up To Date', 'Sep, 2023 - Current', 'Jan, 2023 - Current', 
+                 'May, 2023 - Aug, 2023', 'Sep, 2022 - Dec, 2022', 'May, 2022 - Aug, 2022', 
+                 '2022', 'Oct, 2021 - May 2022', 'May, 2021 - Aug, 2021', 'May, 2021 - Aug, 2021'];
+  const companies = ['Portfolio Website', 'RCOS At RPI', 'Chi Phi', 'Google', 'Data Structures Mentor At RPI', 'Google', 
+                     'Chi Phi', 'Mission: Mentor (Acq.)', 'Research At RPI', 'theCoderSchool'];
+  const titles = ['Front-End Developer', 'Full Stack Developer', 'President', 'Software Engineering Intern', 
+                  'Mentor', 'Software Engineering Intern', 'House Manager', 'Full Stack Developer Team Lead', 
+                  'Front-End Developer', 'Code Coach'];
+  const location = [];
+  const descriptions = [];
 
   function changeTimeline() {
     if (hideTimeline){ 
