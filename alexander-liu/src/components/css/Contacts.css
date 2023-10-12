@@ -85,6 +85,10 @@
     transform-origin: bottom left;
 }
 
+.burger-menu {
+    display: none;
+}
+
 @media screen and (max-width: 1190px) {
     .right {
         margin-left: 55%;

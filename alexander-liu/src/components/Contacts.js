@@ -5,30 +5,22 @@ import { useEffect, useState } from 'react';
 
 function Contacts() {
 
-    const [smallWindow, setSmallWindow] = useState(false);
-
-    useEffect(() => {
-        if (window.innerWidth < 845) {
-            setSmallWindow(true);
-        }
-    }, []);
-
     return (
         <div class='outer'>
             <a class='name' href="#">alexander liu</a>
-            {smallWindow ? 
-                <div>
-
-                </div>
-            :
             <div class='right'>
+                <div class='burger-menu'>
+                    <div class='row1'/>
+                    <div class='row2'/>
+                    <div class='row3'/>
+                </div>
                 <a class='link' href="#school">School</a>
                 <a class='link' href='#experiences'>Experiences</a>
                 <a class='link' href='#skills'>Skills</a>
                 <a class='link' href='#accolades'>Accolades</a>
                 <a class='link' href="#footer">Contact</a>
                 <a class='link' href={resume} target='_blank'>Resume</a>
-            </div>}
+            </div>
         </div>
     );
 }

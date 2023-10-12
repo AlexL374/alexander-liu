@@ -8,7 +8,8 @@ import Typography from '@mui/material/Typography';
 function Accolades() {
 
     const [showAccolades, setShowAccolades] = useState(false);
-    const accolades = ['RPI\'s Founder Award of Excellence Recipient', 'Chi Phi Educational Trust Scholarhip Recipient', 'Upsilon Pi Epsilon (Computer Science Honor Society) at RPI', 'Pi Mu Epsilon (Math Honor Society) at RPI'];
+    const accolades = ['RPI\'s Founder Award of Excellence Recipient', 'Chi Phi Educational Trust Scholarhip Recipient', 
+                       'Upsilon Pi Epsilon (Computer Science Honor Society) at RPI', 'Pi Mu Epsilon (Math Honor Society) at RPI'];
 
     function updateShowAccolades() {
         if (showAccolades) {

@@ -9,13 +9,13 @@ function Intro() {
                 Hi! I'm Alexander Liu.
             </p>
             <p class='intro-text'>
-                I developed this portfolio website myself. 
+                I developed this portfolio website using ReactJS. 
             </p>
             <p class='intro-text'>
-                Feel free to click around : )
+                Hopefully, you're able to learn a little bit about my professional side. 
             </p>
             <p class='intro-text'>
-                Hope you enjoy. 
+                If you'd like to learn more about me as a person, feel free to contact me!
             </p>
             </div>
         </div>
