@@ -34,8 +34,11 @@ function School() {
             <div class='parallax' id="school">
             <ParallaxProvider>
             <Parallax speed={30}>
-                <img src={I} width={imageWidth} />
-                <p class={showCard ? `rpi none` : `rpi show`} onClick={showSchoolInfo}>RPI</p>    
+                <div class='image-container'>
+                <img src={I} class='rpi-image' />
+                <div class={showCard ? `rpi none` : `rpi show`} onClick={showSchoolInfo}>
+                    <p class='rpi-text'>RPI</p>
+                </div>    
                 <div class={showCard ? `school-card show` : `school-card none`} onClick={hideSchoolInfo}>
                     <p class='school-title'>Rensselaer Polytechnic Institute</p>
                     <p>Bachelors Of Science In Computer Science And Mathematics</p>
@@ -48,6 +51,8 @@ function School() {
                     <p>Linear Algebra</p>
                     <p>Machine Learning From Data</p>
                 </div>
+                </div>
+                
             </Parallax>
             </ParallaxProvider>
             </div>

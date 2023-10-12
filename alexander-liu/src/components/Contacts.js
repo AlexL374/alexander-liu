@@ -2,7 +2,6 @@ import './css/Contacts.css';
 import DownloadIcon from './vector-sign-of-download-icon.jpg';
 import resume from './Alexander-Liu-Resume.pdf';
 import { useEffect, useState } from 'react';
-import { slide as Menu } from 'react-burger-menu'
 
 function Contacts() {
 
