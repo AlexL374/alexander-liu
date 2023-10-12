@@ -44,7 +44,7 @@ function Skills() {
                         <div class='skills-outer'>
                             {skills.map((e, index) => {
                                 return (
-                                    <Card sx={{ minWidth: 10, maxWidth: 200, width: '15vw', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center', marginBottom: '3vh' }}>
+                                    <Card sx={{ minWidth: 140, maxWidth: 200, width: '15vw', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center', marginBottom: '3vh' }}>
                                         <CardMedia
                                             sx={dimensions[index]}
                                             image={skillsIcons[index]}

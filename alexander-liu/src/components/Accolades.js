@@ -24,7 +24,7 @@ function Accolades() {
             <div class={showAccolades ? `accolades-outer` : `accolades-outer`}>
                 {accolades.map((accolade) => {
                     return (
-                        <Card sx={{ minWidth: 10, maxWidth: 200, marginLeft: 'auto', marginRight: 'auto', textAlign: 'center', marginBottom: '10px' }}>
+                        <Card sx={{ minWidth: 140, maxWidth: 190, marginLeft: 'auto', marginRight: 'auto', textAlign: 'center', marginBottom: '10px' }}>
                         <CardContent>
                             <Typography sx={{ fontSize: 20, fontFamily: 'asdf' }} color="text.primary" gutterBottom>
                                 {accolade}
