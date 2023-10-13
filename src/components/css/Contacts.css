@@ -95,13 +95,13 @@
     }
   }
 
-  @media screen and (max-width: 1060px) {
+@media screen and (max-width: 1060px) {
     .right {
         margin-left: 50%;
     }
-  }
+}
 
-  @media screen and (max-width: 940px) {
+@media screen and (max-width: 940px) {
     .right {
         margin-left: 45%;
     }
@@ -109,10 +109,10 @@
     .name {
         font-size: 35px;
     }
-  }
+}
 
-  @media screen and (max-width: 845px) {
+@media screen and (max-width: 845px) {
     .right {
         display: none;
     }
-  }
+}

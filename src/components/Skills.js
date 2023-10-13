@@ -5,16 +5,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
-import cpp from './cpp-icon.png';
-import python from './python-icon.png';
-import git from './git-icon.png';
-import java from './java-icon.png';
-import react from './react-icon.png';
-import latex from './latex-icon.png';
-import sql from './sql-icon.png';
-import c from './c-icon.png';
-import protobuf from './protobuf-icon.png';
-import frontend from './frontend-icon.png';
+import cpp from './assets/cpp-icon.png';
+import python from './assets/python-icon.png';
+import git from './assets/git-icon.png';
+import java from './assets/java-icon.png';
+import react from './assets/react-icon.png';
+import latex from './assets/latex-icon.png';
+import sql from './assets/sql-icon.png';
+import c from './assets/c-icon.png';
+import protobuf from './assets/protobuf-icon.png';
+import frontend from './assets/frontend-icon.png';
 
 function Skills() {
 
