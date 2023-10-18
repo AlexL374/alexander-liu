@@ -58,7 +58,7 @@ function Experiences() {
       <li>Inter-team and intra-team communication through Slack, Figma, Jira, and Git</li>
     </ul>,
     <ul>
-      <li> Developed a functional website for teaching the Monty Hall problem</li>
+      <li>Developed a functional website for teaching the Monty Hall problem</li>
       <li>Coded in HTML, CSS, and JS in the Laravel framework and communicated with a MySQL database</li>
       <li>Effectively collaborated and connected with a team of students</li>
       <li>Designed the style of the website which the team adopted</li>
