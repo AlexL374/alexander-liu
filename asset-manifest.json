@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/alexander-liu/static/css/main.5cc065ef.css",
-    "main.js": "/alexander-liu/static/js/main.e906f402.js",
+    "main.css": "/alexander-liu/static/css/main.4cd8ba1d.css",
+    "main.js": "/alexander-liu/static/js/main.b7f812a2.js",
     "static/js/787.c7c8d4d0.chunk.js": "/alexander-liu/static/js/787.c7c8d4d0.chunk.js",
     "static/media/i.jpeg": "/alexander-liu/static/media/i.5c37d13139569757901f.jpeg",
-    "static/media/vector-sign-of-download-icon.jpg": "/alexander-liu/static/media/vector-sign-of-download-icon.fe554b89b3d16121dd2f.jpg",
     "static/media/react-icon.png": "/alexander-liu/static/media/react-icon.8a6fc0a24a800d1e0f4a.png",
     "static/media/python-icon.png": "/alexander-liu/static/media/python-icon.82efb64f8698a267f8bf.png",
     "static/media/Alexander-Liu-Resume.pdf": "/alexander-liu/static/media/Alexander-Liu-Resume.0ce9e161ca7db57c9398.pdf",
@@ -17,12 +16,12 @@
     "static/media/latex-icon.png": "/alexander-liu/static/media/latex-icon.7b92b58a9a6c1d0274f9.png",
     "static/media/sql-icon.png": "/alexander-liu/static/media/sql-icon.d0875781b3030e385cc1.png",
     "index.html": "/alexander-liu/index.html",
-    "main.5cc065ef.css.map": "/alexander-liu/static/css/main.5cc065ef.css.map",
-    "main.e906f402.js.map": "/alexander-liu/static/js/main.e906f402.js.map",
+    "main.4cd8ba1d.css.map": "/alexander-liu/static/css/main.4cd8ba1d.css.map",
+    "main.b7f812a2.js.map": "/alexander-liu/static/js/main.b7f812a2.js.map",
     "787.c7c8d4d0.chunk.js.map": "/alexander-liu/static/js/787.c7c8d4d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cc065ef.css",
-    "static/js/main.e906f402.js"
+    "static/css/main.4cd8ba1d.css",
+    "static/js/main.b7f812a2.js"
   ]
 }
