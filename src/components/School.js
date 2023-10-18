@@ -9,6 +9,14 @@ function School() {
     const [showCard, setShowCard] = useState(false);
     const [imageWidth, setImageWidth] = useState('100%');
 
+    const [smallViewport, setSmallViewport] = useState(false);
+
+    useEffect(() => {
+        if (window.innerWidth < 750) {
+            setSmallViewport(true);
+        }
+    }, []);
+
     useEffect(() => {
         if (false) {
             setImageWidth("1500px");
@@ -20,12 +28,10 @@ function School() {
     }, []);
 
     function showSchoolInfo() {
-        console.log('here');
         setShowCard(true);
     }
 
     function hideSchoolInfo() {
-        console.log('hi');
         setShowCard(false);
     }
 
@@ -52,7 +58,6 @@ function School() {
                     <p>Machine Learning From Data</p>
                 </div>
                 </div>
-                
             </Parallax>
             </ParallaxProvider>
             </div>

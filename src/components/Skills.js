@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './css/Skills.css';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';

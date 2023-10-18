@@ -1,0 +1,31 @@
+.scroll-down-outer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 10%;
+}
+
+.bottom-angle {
+    bottom: 32px;
+}
+
+.angle {
+    transform: rotate(45deg);
+    border-color: black;
+    border-bottom: 3px;
+    border-right: 3px;
+    border-top: 0;
+    border-left: 0;
+    border-style: solid;
+    padding: 6px;
+}
+
+.top-angle {
+    bottom: 38px;
+}
+
+.middle-angle {
+    bottom: 35px;
+}
