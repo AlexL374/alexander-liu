@@ -55,7 +55,7 @@ function Experiences() {
       <li>Full stack feature development allowing users to match with scholarships and learn with modules improving their chances of getting into their dream college</li>
       <li>Worked with ReactJS, Java Spring Boot, and AWS services, such as Cognito, Amplify, and EC2</li>
       <li>Led a team of developers to iterate quickly on new designs</li>
-      <li>Inter-team and intra-team communication through Slack, Figma, Jira, and Git</li>
+      <li>Communicated inter-team and intra-team through Slack, Figma, Jira, and Git</li>
     </ul>,
     <ul>
       <li>Developed a functional website for teaching the Monty Hall problem</li>
