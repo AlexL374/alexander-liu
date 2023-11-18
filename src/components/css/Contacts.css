@@ -63,10 +63,10 @@
 }
 
 .right {
-    position: absolute;
     display: flex;
     justify-content: space-between;
-    margin-left: 55%;
+    margin-left: auto;
+    margin-right: 5%;
 }
 
 .link:after {
@@ -92,29 +92,13 @@
     display: none;
 }
 
-@media screen and (max-width: 1190px) {
-    .right {
-        margin-left: 50%;
-    }
-  }
-
-@media screen and (max-width: 1060px) {
-    .right {
-        margin-left: 45%;
-    }
-}
-
-@media screen and (max-width: 940px) {
-    .right {
-        margin-left: 40%;
-    }
-
+@media screen and (max-width: 955px) {
     .name {
         font-size: 35px;
     }
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 908px) {
     .right {
         display: none;
     }
