@@ -11,7 +11,7 @@ function Experiences() {
                  'May, 2023 - Aug, 2023', 'Sep, 2022 - Dec, 2022', 'May, 2022 - Aug, 2022', 
                  '2022', 'Oct, 2021 - May 2022', 'May, 2021 - Aug, 2021', 'May, 2021 - Aug, 2021'];
   const companies = ['RCOS At RPI', 'Chi Phi', 'Google', 'Data Structures Mentor At RPI', 'Google', 
-                     'Chi Phi', 'Mission: Mentor (Acq.)', 'Research At RPI', 'theCoderSchool'];
+                     'Chi Phi', 'Mission: Mentor', 'Research At RPI', 'theCoderSchool'];
   const titles = ['Full Stack Developer', 'President', 'Software Engineering Intern', 
                   'Mentor', 'Software Engineering Intern', 'House Manager', 'Full Stack Developer Team Lead', 
                   'Front-End Developer', 'Code Coach'];
@@ -23,9 +23,10 @@ function Experiences() {
       <li>Wrote documentation to enable future users to run and code our open source project</li>
     </ul>,
     <ul>
-      <li>Played a vital role in recovering and improving Chapter operations coming off a probation</li>
-      <li>Manage all 21 officers in charge of all Chi Phi operations</li>
-      <li>Represent Chi Phi locally within RPI’s Interfraternity Council and nationally for our National</li>
+      <li>Elected official overseeing 21 officers with an annual budget of over $200,000</li>
+      <li>Spearheaded using Notion to organize all officer's tasks to streamline Chapter operations</li>
+      <li>Pioneered a 50 page document including information about how to run all Chapter operations to prepare the incoming President and to retain as much information as possible</li>
+      <li>Represent the Active Chapter for our Alumni Association, RPI’s Interfraternity Council, and our National Fraternity</li>
     </ul>,
     <ul>
       <li>Modernized C++ code by deprecating the use of a god object and instead using a recorder pattern for audit logging to clean up the developer workflow</li>
@@ -34,6 +35,7 @@ function Experiences() {
       <li>Utilized Google’s internal tools to make, upload, and review code changes</li>
     </ul>,
     <ul>
+      <li>Tutored / Mentored students in learning about data structures and pointers in C++</li>
       <li>Checked off student's Data Structures lab submissions for accuracy and tested their solutions</li>
       <li>Assisted students on a personal level to better their understanding of data structures and understanding the assignments</li>
       <li>Attended weekly meetings to discuss ways to make the curriculum better and mentoring more helpful for the students</li>
@@ -52,7 +54,9 @@ function Experiences() {
       <li>Actively involved in executive decisions made regarding the Chapter's internal and external status</li>
     </ul>,
     <ul>
+      <li>Brought onto startup Fall, 2021 and acquired by Crimson Education in Summer, 2022</li>
       <li>Full stack feature development allowing users to match with scholarships and learn with modules improving their chances of getting into their dream college</li>
+      <li>Provided students with access to hundreds of scholarships and matched them based on their experiences and demographics</li>
       <li>Worked with ReactJS, Java Spring Boot, and AWS services, such as Cognito, Amplify, and EC2</li>
       <li>Led a team of developers to iterate quickly on new designs</li>
       <li>Communicated inter-team and intra-team through Slack, Figma, Jira, and Git</li>

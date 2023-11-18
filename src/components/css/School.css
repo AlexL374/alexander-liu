@@ -1,7 +1,7 @@
 .parallax {
-    margin-top: -15%;
+    margin-top: 15%;
     text-align: center;
-    scroll-margin-top: 3vh;
+    scroll-margin-top: 8vh;
 }
 
 .rpi {
@@ -18,6 +18,16 @@
     position: absolute;
     top: 50%;
     width: 100%;
+}
+
+@keyframes clickme {
+    0%   {transform: scaleX(0); transform-origin: bottom left;}
+    25%  {transform: scaleX(1); transform-origin: bottom left;}
+    26%  {transform-origin: bottom right;}
+    50%  {transform: scaleX(0); transform-origin: bottom right;}
+    75%  {transform: scaleX(1); transform-origin: bottom right;}
+    76%  {transform-origin: bottom left;}
+    100% {transform: scaleX(0); transform-origin: bottom left;}
 }
 
 .rpi-text {
@@ -44,6 +54,9 @@
     background-color: #f7453b;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
+    animation-name: clickme;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .rpi-text:hover:after {

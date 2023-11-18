@@ -46,7 +46,7 @@ function School() {
                     <p class='rpi-text'>RPI</p>
                 </div>    
                 <div class={showCard ? `school-card show` : `school-card none`} onClick={hideSchoolInfo}>
-                    <p class='school-title'>Rensselaer Polytechnic Institutasdfe</p>
+                    <p class='school-title'>Rensselaer Polytechnic Institute</p>
                     <p>Bachelors Of Science In Computer Science And Mathematics</p>
                     <p>Graduation: December, 2023</p>
                     <p>GPA: 3.72</p>

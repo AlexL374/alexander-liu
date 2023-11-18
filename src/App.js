@@ -1,6 +1,7 @@
 import './App.css';
 import Contacts from './components/Contacts.js';
 import Intro from './components/Intro';
+import About from './components/About';
 import ScrollDown from './components/ScrollDown.js';
 import School from './components/School.js';
 import Experiences from './components/Experiences.js';
@@ -10,12 +11,13 @@ import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <div>
+    <div class='all'>
       <div class='top'>
         <Contacts />
         <Intro />
         <ScrollDown />
       </div>
+      <About />
       <School />
       <Experiences />
       <Skills />
