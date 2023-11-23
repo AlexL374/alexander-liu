@@ -15,11 +15,11 @@ function About() {
                     </p>
                     <p class='about-text'>
                         I'm currently taking some Coursera courses to learn about UI / UX Design
-                        and Cybersecurity which is something that I didn't get a chance to mention in this website.
+                        and Cybersecurity to grow myself in other areas related to software engineering.
                     </p>
                     <p class='about-text'>
-                        Beyond that I enjoy going to the gym, rock climbing, playing poker, watching anime, building custom keyboards,
-                        and just generally hanging out with my friends.
+                        Beyond that I enjoy going to the gym, rock climbing, building custom keyboards, 
+                        and helping to teach people. 
                     </p>
                 </div>
             </div>
