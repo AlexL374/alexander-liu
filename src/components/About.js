@@ -11,7 +11,7 @@ function About() {
                 </div>
                 <div class='about-text-contain'>
                     <p class='about-text'>
-                        Heyo, I'm an aspiring Software Engineer.
+                        Hey, I'm an aspiring Software Engineer.
                     </p>
                     <p class='about-text'>
                         I'm currently taking some Coursera courses to learn about UI / UX Design
