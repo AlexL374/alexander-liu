@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alexander-liu/static/css/main.aaa0f2c4.css",
-    "main.js": "/alexander-liu/static/js/main.31bcb641.js",
+    "main.css": "/alexander-liu/static/css/main.ef20013b.css",
+    "main.js": "/alexander-liu/static/js/main.d27faf59.js",
     "static/js/787.c7c8d4d0.chunk.js": "/alexander-liu/static/js/787.c7c8d4d0.chunk.js",
     "static/media/alex.jpg": "/alexander-liu/static/media/alex.dc06d0993dcb69b9e60d.jpg",
     "static/media/i.jpeg": "/alexander-liu/static/media/i.5c37d13139569757901f.jpeg",
@@ -17,12 +17,12 @@
     "static/media/latex-icon.png": "/alexander-liu/static/media/latex-icon.7b92b58a9a6c1d0274f9.png",
     "static/media/sql-icon.png": "/alexander-liu/static/media/sql-icon.d0875781b3030e385cc1.png",
     "index.html": "/alexander-liu/index.html",
-    "main.aaa0f2c4.css.map": "/alexander-liu/static/css/main.aaa0f2c4.css.map",
-    "main.31bcb641.js.map": "/alexander-liu/static/js/main.31bcb641.js.map",
+    "main.ef20013b.css.map": "/alexander-liu/static/css/main.ef20013b.css.map",
+    "main.d27faf59.js.map": "/alexander-liu/static/js/main.d27faf59.js.map",
     "787.c7c8d4d0.chunk.js.map": "/alexander-liu/static/js/787.c7c8d4d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaa0f2c4.css",
-    "static/js/main.31bcb641.js"
+    "static/css/main.ef20013b.css",
+    "static/js/main.d27faf59.js"
   ]
 }
