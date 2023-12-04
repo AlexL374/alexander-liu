@@ -7,9 +7,9 @@ import './css/Experiences.css';
 function Experiences() {
 
   const [hideTimeline, setHideTimeline] = useState(false);
-  const dates = ['Sep, 2023 - Current', 'Jan, 2023 - Current', 
+  const dates = ['Sep, 2023 - Dec, 2023', 'Jan, 2023 - Dec, 2023', 
                  'May, 2023 - Aug, 2023', 'Sep, 2022 - Dec, 2022', 'May, 2022 - Aug, 2022', 
-                 '2022', 'Oct, 2021 - May 2022', 'May, 2021 - Aug, 2021', 'May, 2021 - Aug, 2021'];
+                 'Jan, 2022 - Dec, 2022', 'Oct, 2021 - May 2022', 'May, 2021 - Aug, 2021', 'May, 2021 - Aug, 2021'];
   const companies = ['RCOS At RPI', 'Chi Phi', 'Google', 'Data Structures Mentor At RPI', 'Google', 
                      'Chi Phi', 'Mission: Mentor', 'Research At RPI', 'theCoderSchool'];
   const titles = ['Full Stack Developer', 'President', 'Software Engineering Intern', 
@@ -54,7 +54,7 @@ function Experiences() {
       <li>Actively involved in executive decisions made regarding the Chapter's internal and external status</li>
     </ul>,
     <ul>
-      <li>Brought onto startup Fall, 2021 and acquired by Crimson Education in Summer, 2022</li>
+      <li>Handled the handoff of the repository for the acquisition by Crimson Education in September, 2022</li>
       <li>Full stack feature development allowing users to match with scholarships and learn with modules improving their chances of getting into their dream college</li>
       <li>Provided students with access to hundreds of scholarships and matched them based on their experiences and demographics</li>
       <li>Worked with ReactJS, Java Spring Boot, and AWS services, such as Cognito, Amplify, and EC2</li>
