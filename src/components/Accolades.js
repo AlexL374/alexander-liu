@@ -10,8 +10,10 @@ function Accolades() {
     const [showAccolades, setShowAccolades] = useState(false);
     const accolades = ['RPI\'s Founder Award of Excellence Recipient', 'Chi Phi Educational Trust Scholarhip Recipient', 
                        'Upsilon Pi Epsilon (Computer Science Honor Society) at RPI', 'Pi Mu Epsilon (Math Honor Society) at RPI',
-                    'Coursera Certificate: Foundations of User Experience (UX) Design',
-                    'Coursera Certificate: Start the UX Design Process: Empathize, Define, and Ideate'];
+                        'Coursera Certificate: Foundations of User Experience (UX) Design by Google',
+                        'Coursera Certificate: Start the UX Design Process: Empathize, Define, and Ideate by Google', 
+                        'Coursera Certificate: Introduction to Artificial Intelligence by IBM',
+                        'Coursera Certificate: Generative AI: Introduction and Applications by IBM',];
 
     function updateShowAccolades() {
         if (showAccolades) {

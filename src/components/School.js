@@ -49,7 +49,7 @@ function School() {
                     <p class='school-title'>Rensselaer Polytechnic Institute</p>
                     <p>Bachelors Of Science In Computer Science And Mathematics</p>
                     <p>Graduation: December, 2023</p>
-                    <p>GPA: 3.72</p>
+                    <p>GPA: 3.73</p>
                     <p>Coursework:</p>
                     <p>Data Structures</p>
                     <p>Intro To Algorithms</p>
