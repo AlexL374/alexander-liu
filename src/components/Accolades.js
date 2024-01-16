@@ -13,7 +13,8 @@ function Accolades() {
                         'Coursera Certificate: Foundations of User Experience (UX) Design by Google',
                         'Coursera Certificate: Start the UX Design Process: Empathize, Define, and Ideate by Google', 
                         'Coursera Certificate: Introduction to Artificial Intelligence by IBM',
-                        'Coursera Certificate: Generative AI: Introduction and Applications by IBM',];
+                        'Coursera Certificate: Generative AI: Introduction and Applications by IBM',
+                        'Coursera Certificate: Generative AI: Prompt Engineering Basics by IBM'];
 
     function updateShowAccolades() {
         if (showAccolades) {
