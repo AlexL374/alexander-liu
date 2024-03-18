@@ -1,0 +1,23 @@
+.key-outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+}
+
+.abs-div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+}
+
+.abs-div > button {
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+.abs-div > button:hover {
+    cursor: pointer;
+}

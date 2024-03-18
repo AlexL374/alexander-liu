@@ -1,0 +1,26 @@
+.dialog-box {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 50vw;
+    height: 20vh;
+    padding: 10px;
+    position: relative;
+}
+
+.dialog-box:hover {
+    cursor: pointer;
+}
+
+.dialog-text {
+    margin: 0px;
+}
+
+.next-dialog-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+}

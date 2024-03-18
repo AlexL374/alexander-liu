@@ -1,4 +1,4 @@
-import './App.css';
+import { useState } from 'react';
 import Contacts from './components/Contacts.js';
 import Intro from './components/Intro';
 import About from './components/About';
@@ -8,10 +8,16 @@ import Experiences from './components/Experiences.js';
 import Skills from './components/Skills.js';
 import Accolades from './components/Accolades.js';
 import Footer from './components/Footer.js';
+import Canvas from './components/Canvas.js';
+import Dialog from './components/Dialog.js';
+import './App.css';
 
 function App() {
-  return (
-    <div class='all'>
+
+	const [current, setCurrent] = useState('canvas');
+
+  	return (
+    /*<div class='all'>
       <div class='top'>
         <Contacts />
         <Intro />
@@ -23,8 +29,21 @@ function App() {
       <Skills />
       <Accolades />
       <Footer />
-    </div>
-  );
+    </div>*/
+    	<>
+			{current == 'canvas' ? 
+			<div className='all-outer'>
+				<Canvas />
+				<div className='contain-dialog'>
+					<Dialog />
+				</div>
+			</div>
+			: 
+			<>
+				<div></div>
+			</>}
+   		</>
+  	);
 }
 
 export default App;
